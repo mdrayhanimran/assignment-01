@@ -78,11 +78,16 @@ justify-content: space-between;
 width: 1140px;
 height: 328;
 margin: 116px 160px 140px 116px;
+
 }
 .engaged{
   width: 1140px;
   height: 306px;
-  background-color: #4d47ff44
+  background-color: #4d47ff44;
+  margin: 116px 141px 134px 159px;;
+  padding: 50px 142px;
+  text-align: center;
+  border-radius: 24px;
 
 }
 .engaged-title{
@@ -98,13 +103,17 @@ margin: 116px 160px 140px 116px;
 .engaged-description{
   font-size: 20px;
   color: #252432;
+  gap: 0;
 }
 .engaged-items{
 display: flex;
 justify-content: space-around;
 width: 1140px;
 height: 306;
-margin: 116px 160px 140px 116px;
-
-;
+gap: 0;
+margin: 0;
+}
+.engaged-item p{
+  margin: 0px;
+  gap: 0px;
 }
