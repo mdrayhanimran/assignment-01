@@ -69,6 +69,7 @@
 .title2{
   font-size: 42px;
   gap: 23px;
+
 }
 .action-tab{
 display: flex;
@@ -159,137 +160,41 @@ margin: 0;
   border-radius: 50%;
   margin-right: 10px;
 }
-.touch-section{
-    display: flex;
+.focus-container{
+   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+} 
+.focus-title{
+  font-size: 50px;
+  font-weight: bold; 
+  color: #252432;
+  max-resolution: 71px 312px;
 }
-/* .touch-column{
-    width: ;
-} */
- /* focus section */
- .focus--section{
-  text-align: center;
- }
-/* --- Let's Get in Touch Section --- */
+.focus-description{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px 326px;
 
-.get-in-touch-section {
-    padding: 100px 0; 
-    text-align: center; 
 }
-
-.cta-description {
-    font-size: 20px;
-    color: rgba(37, 36, 50, 0.7); 
-    max-width: 700px;
-    margin: 20px auto 40px auto; 
-    line-height: 1.5;
-    font-family: 'Raleway', sans-serif;
+.focus-btn{
+  margin-bottom: 20px;
 }
-
-/* --- Contact Form Styles --- */
-.contact-form {
-    max-width: 700px; 
-    margin: 0 auto; 
-    text-align: left; /
+.touch-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-/* Name and Email field row (Flexbox) */
-.form-row {
-    display: flex;
-    gap: 20px;
+.get-in-touch-section{
+  width: 1140;
+  height: 632px;
+  margin: 92px 150px 0px 150px;
+  padding: 20px;
 }
-
-.form-row .form-group {
-    flex: 1; 
-}
-
-/* Individual input group (label + input) */
-.form-group {
-    margin-bottom: 20px;
-}
-
-/* Label Styling */
-.form-group label {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 8px;
-    color: #333;
-}
-
-/* Input and Textarea base styling */
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
-    width: 100%;
-    padding: 12px 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-    background-color: #fff;
-    color: #333;
-    transition: border-color 0.3s;
-    box-sizing: border-box; 
-}
-
-.form-group textarea {
-    resize: vertical; 
-}
-
-/* Input focus state */
-.form-group input:focus,
-.form-group textarea:focus {
-    border-color: rgba(78, 71, 255, 1); 
-    outline: none;
-}
-
-.contact-form .btn-primary {
-    margin-top: 20px;
-     
-}
-
-/* footer */
-
-.footer-section {
-    background-color: #ffffff; 
-    padding: 100px 0; 
-    text-align: center;
-}
-
-/* Footer Logo Styling */
-.footer-logo {
-    font-size: 40px;
-    font-weight: bold;
-    color: rgba(78, 71, 255, 1); 
-    margin-bottom: 20px;
-}
-
-/* Footer Description */
-.footer-description {
-    font-size: 16px;
-    color: #666;
-    max-width: 600px;
-    margin: 0 auto 30px auto; 
-    justify-content: space-around;
-    line-height: 1.5;
-}
-
-/* Footer Navigation Links */
-.footer-nav ul {
-    max-width: 600px;
-    list-style: none;
-    padding: 0;
-    display: flex; 
-    justify-items: center;
-    gap: 30px; 
-}
-
-.footer-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-.footer-nav ul li a:hover {
-    color: rgba(78, 71, 255, 1); 
+.section-title{
+  font-size: 97px;
+  font-weight: bold;
 }
